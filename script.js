@@ -1,5 +1,6 @@
 const targetWords = [
   "kyle",
+  "keel"
 ]
 const dictionary = [
   "abba",
@@ -2265,7 +2266,8 @@ const offsetFromDate = new Date(2022, 0, 1)
 const msOffset = Date.now() - offsetFromDate
 const dayOffset = msOffset / 1000 / 60 / 60 / 24
 // const targetWord = targetWords[Math.floor(dayOffset)]
-const targetWord = "kyle"
+// const targetWord = "kyle"
+const targetWord = targetWords[Math.floor(Math.random() * 2)]
 
 startInteraction()
 
